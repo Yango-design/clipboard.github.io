@@ -168,3 +168,111 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+
+@media(max-width: 450px){
+    body{
+        font-size: 30px;
+        text-align:center;
+        max-width: 100%;
+        
+    }
+
+    #logo{
+        margin-top: 50px;
+    }
+    
+    
+    .ios {
+        
+            border: 20px solid;
+            border-radius: 20px;
+            border-style:inherit;
+            color: white;
+            padding: 15px 32px;
+            display: inline-block;
+            font-size: 20px;
+            margin-left: 15%;
+    }
+
+    .mac {
+            
+            border-radius: 20px;
+            border: 20px solid;
+            border-style:inherit;
+            color: white;
+            padding: 15px 32px;
+            display: inline-block;
+            font-size: 20px;
+            margin-left: 8%;
+    }
+
+    
+    .container{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        font-size: 20px;
+        padding-left: 20px; 
+      }
+    
+    .pics{
+        display: block;
+        /* align-items: center;
+        justify-content: center;
+        flex-basis: 30%; */
+    }
+    
+    #imag{
+        max-width: 100%;
+        white-space: nowrap;
+        margin-top: 50px;
+    }
+    
+    .section{ 
+        display: block;     
+        /* content: "";
+        display: table;
+        clear: both; */
+    }
+    
+    .blacklist{
+        width: 100%;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .itext{
+        width: 100%;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .preview{
+        width: 100%;
+        display: inline-block;
+        font-size: 20px;
+    } 
+    
+    .info{
+        display: inline-block;
+        background-color: hsl(200, 47%, 96%);
+        align-content: center;    
+        width: 100%;
+    }
+    #lslogo{
+        width: 40px;
+        margin-right: 30%;
+    }
+    .para{
+        text-align: center;
+        font-size: 20px;
+    } 
+    
+    .logo{
+        margin-top: 50px;
+        flex: 10%;
+    }
+}
